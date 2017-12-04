@@ -21,9 +21,12 @@ class IdDocument < ActiveRecord::Base
 
   aasm do
     #state :unverified, initial: true
-    state :unverified
+    #state :unverified
+    #state :verifying
+    #state :verified, initial: true
+    state :unverified, initial: true
     state :verifying
-    state :verified, initial: true
+    state :verified
 
     event :submit do
       transitions from: :unverified, to: :verifying
