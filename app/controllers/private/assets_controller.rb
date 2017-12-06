@@ -13,9 +13,10 @@ module Private
       @rpt_proof   = Proof.current :rpt
       @trt_proof   = Proof.current :trt
       # @cny_proof   = Proof.current :cny
-      @cny_proof   = Proof.current :usd
+      @usd_proof   = Proof.current :usd
       @cny_proof   = Proof.current :cny
       @eur_proof   = Proof.current :eur
+      @mxn_proof   = Proof.current :mxn
 
       if current_user
         @btc_account = current_user.accounts.with_currency(:btc).first
@@ -25,9 +26,10 @@ module Private
         @rpt_account = current_user.accounts.with_currency(:rpt).first
         @trt_account = current_user.accounts.with_currency(:trt).first
         # @cny_account = current_user.accounts.with_currency(:cny).first
-        @cny_account = current_user.accounts.with_currency(:usd).first
+        @usd_account = current_user.accounts.with_currency(:usd).first
         @cny_account = current_user.accounts.with_currency(:cny).first
         @eur_account = current_user.accounts.with_currency(:eur).first
+        @mxn_account = current_user.accounts.with_currency(:mxn).first
       end
     end
 

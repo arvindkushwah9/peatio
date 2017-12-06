@@ -23,6 +23,7 @@ en:
       gdb: Guangdong Development Bank
       psbc: Postal Savings Bank of China
       bos: Bank of Shanghai
+      mxn: Mexican peso
     fund_sources:
       manage_bank_account: Bank Account Management
       manage_bank_account_desc: To facilitate the choice of bank withdrawals address
@@ -49,6 +50,7 @@ en:
         blk: BLK
         rpt: RPT
         trt: TRT
+        mxn: MXN
       deposit_cny:
         title: Chinese Yuan Deposit
         desc: "To deposit via Bank transfer, please follow these steps:"
@@ -70,6 +72,26 @@ en:
         opening_bank_name: Account where created
         remark: 'Referral Code (Transfer identification code)'
       deposit_usd:
+        title: Unites States Dollar Deposit
+        desc: "To deposit via Bank transfer, please follow these steps:"
+        desc_item_1: "1. Submit the form to get the identification code."
+        desc_item_2: "2. Transfer the money to exchange's bank account. Please make sure your referral code was written on the form you fill in."
+        desc_item_3: "3. Your deposit will be confirmed as soon as the money is received."
+        attention: "Attention: The name of your bank account must be the same as your account name on our site, otherwise your deposit may fail."
+        from: From
+        to: To
+        deposit_name: Your Name
+        deposit_account: Deposit Account
+        add: Add
+        manage: Manage
+        amount: Deposit Amount
+        min_amount: At least 10 yuan
+        to_account: Account
+        to_name: Name
+        to_bank_name: Bank Name
+        opening_bank_name: Account where created
+        remark: 'Referral Code (Transfer identification code)'      
+      deposit_mxn:
         title: Unites States Dollar Deposit
         desc: "To deposit via Bank transfer, please follow these steps:"
         desc_item_1: "1. Submit the form to get the identification code."
@@ -157,7 +179,20 @@ en:
         suspect: Suspect
 
       withdraw_cny:
-        title: Chinese Yuan Withdraw
+        title: MXN Withdraw
+        intro: Select the bank to cash withdrawal amount and enter the account number and complete submission.
+        intro_2: Your bank account and name must be consistent with the real-name authentication name.
+        attention: "Working Hours: 9:00 - 18:00"
+        account_name: Account Name
+        withdraw_address: Withdraw Address
+        balance: Balance
+        withdraw_amount: Withdraw Amount
+        manage_withdraw: Manage Withdraw
+        fee_explain: About Fee
+        min: At least
+        withdraw_all: Withdraw all
+      withdraw_usd:
+        title: USD Withdraw
         intro: Select the bank to cash withdrawal amount and enter the account number and complete submission.
         intro_2: Your bank account and name must be consistent with the real-name authentication name.
         attention: "Working Hours: 9:00 - 18:00"
@@ -182,6 +217,32 @@ en:
         title: RPT Withdraw
       withdraw_trt:
         title: TRT Withdraw
+      withdraw_mxn:
+        title: Chinese Yuan Withdraw
+        intro: Select the bank to cash withdrawal amount and enter the account number and complete submission.
+        intro_2: Your bank account and name must be consistent with the real-name authentication name.
+        attention: "Working Hours: 9:00 - 18:00"
+        account_name: Account Name
+        withdraw_address: Withdraw Address
+        balance: Balance
+        withdraw_amount: Withdraw Amount
+        manage_withdraw: Manage Withdraw
+        fee_explain: About Fee
+        min: At least
+        withdraw_all: Withdraw all
+      withdraw_eur:
+        title: EUR Withdraw
+        intro: Select the bank to cash withdrawal amount and enter the account number and complete submission.
+        intro_2: Your bank account and name must be consistent with the real-name authentication name.
+        attention: "Working Hours: 9:00 - 18:00"
+        account_name: Account Name
+        withdraw_address: Withdraw Address
+        balance: Balance
+        withdraw_amount: Withdraw Amount
+        manage_withdraw: Manage Withdraw
+        fee_explain: About Fee
+        min: At least
+        withdraw_all: Withdraw all
 
       withdraw_coin:
         intro: Please fill in the address and amount, then submit the form. It will be confirmed in 10 minutes
@@ -245,4 +306,5 @@ en:
         blk: BLK Market
         rpt: RPT Market
         trt: TRT Market
+        mxn: MXN Market
 

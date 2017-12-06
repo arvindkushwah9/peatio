@@ -26,7 +26,18 @@ Peatio::Application.configure do
   config.action_mailer.file_settings = { location: 'tmp/mails' }
 
   config.action_mailer.default_url_options = { :host => ENV["URL_HOST"] }
+  config.action_mailer.default_url_options = { host: ENV["URL_HOST"], protocol: ENV['URL_SCHEMA'] }
 
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    port:           ENV["SMTP_PORT"],
+    domain:         ENV["SMTP_DOMAIN"],
+    address:        ENV["SMTP_ADDRESS"],
+    user_name:      ENV["SMTP_USERNAME"],
+    password:       ENV["SMTP_PASSWORD"],
+    authentication: ENV["SMTP_AUTHENTICATION"],
+    enable_starttls_auto: false
+  }
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
 

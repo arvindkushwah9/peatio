@@ -1097,6 +1097,12 @@ en:
             deposit: Deposit
             withdraw: Withdraw
             fix: Fix
+          mxn:
+            strike_add: Plus
+            strike_sub: Sub
+            deposit: Deposit
+            withdraw: Withdraw
+            fix: Fix
           btc:
             strike_add: Plus
             strike_sub: Sub
