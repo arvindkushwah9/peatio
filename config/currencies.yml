@@ -17,7 +17,7 @@
   symbol: "฿"
   coin: true
   quick_withdraw_max: 0
-  rpc: http://admin:magic123@127.0.0.1:18332
+  rpc: http://arvind:arvind123@127.0.0.1:18332
   blockchain: https://blockchain.info/tx/#{txid}
   address_url: https://blockchain.info/address/#{address}
   assets:
@@ -108,19 +108,19 @@
 #     accounts:
 #       -
 #         address: 0x4bA2474e063Aec44e23F2Bf7Fb9e4e2878dBaB44
-- id: 7
-  key: dollar
-  code: usd
-  symbol: "$"
-  coin: false
-  precision: 2
-  assets:
-    accounts:
-      -
-        bank: 'Chase Bank'
-        address: '6225 0885 6022 3501'
-        password: '111111'
-        tel: '95555'
+# - id: 7
+#   key: dollar
+#   code: usd
+#   symbol: "$"
+#   coin: false
+#   precision: 2
+#   assets:
+#     accounts:
+#       -
+#         bank: 'Chase Bank'
+#         address: '6225 0885 6022 3501'
+#         password: '111111'
+#         tel: '95555'
 - id: 9
   key: mexican
   code: mxn
