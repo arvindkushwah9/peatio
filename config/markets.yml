@@ -45,7 +45,7 @@
   bid: {fee: 0, currency: eur, fixed: 8}
   ask: {fee: 0, currency: etc, fixed: 8}
 - id: mxneur
-  code: 9
+  code: 10
   base_unit: mxn
   quote_unit: eur
   bid: {fee: 0, currency: eur, fixed: 8}
