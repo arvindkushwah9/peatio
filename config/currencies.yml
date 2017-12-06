@@ -17,7 +17,7 @@
   symbol: "฿"
   coin: true
   quick_withdraw_max: 0
-  rpc: http://arvind:arvind123@127.0.0.1:18332
+  rpc: http://arvind:arvind123@127.0.0.1:8332
   blockchain: https://blockchain.info/tx/#{txid}
   address_url: https://blockchain.info/address/#{address}
   assets:
