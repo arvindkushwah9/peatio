@@ -23,6 +23,7 @@ module Admin
       can :manage, ::Deposits::Peercoin
       can :manage, ::Deposits::Realpointcoin
       can :manage, ::Deposits::Tritiumcoin
+      can :manage, ::Deposits::Mexicancoin
 
       can :menu, Withdraw
       can :manage, ::Withdraws::Bank
@@ -32,6 +33,8 @@ module Admin
       can :manage, ::Withdraws::Peercoin
       can :manage, ::Withdraws::Realpointcoin
       can :manage, ::Withdraws::Tritiumcoin
+      can :manage, ::Withdraws::Mexicancoin
+      
     end
   end
 end

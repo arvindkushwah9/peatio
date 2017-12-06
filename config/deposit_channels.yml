@@ -19,3 +19,23 @@
   currency: eth
   min_confirm: 1
   max_confirm: 6
+- id: 700
+  key: dollar
+  currency: usd
+  sort_order: 2
+  bank_accounts:
+    -
+      bank: 'Your Bank Name'
+      branch: 'Your Bank Branch'
+      holder: 'Your Account Holder'
+      account: 'Your Account Number'
+- id: 900
+  key: mexican
+  currency: mxn
+  sort_order: 2
+  bank_accounts:
+    -
+      bank: 'Your Bank Name'
+      branch: 'Your Bank Branch'
+      holder: 'Your Account Holder'
+      account: 'Your Account Number'
